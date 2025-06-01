@@ -55,11 +55,23 @@ This project was built for local use, focused on privacy and protecting sensitiv
 
 ---
 
-## Installation
+## Installation Linux
 
 1. Make sure you have Python 3 installed.
-2. Install dependencies:
+2. Create a virtual enviroment:
+```bash
+python3 -m venv .venv
+```
+3. activate virtual enviroment:
+```bash
+source ./venv/bin/activate
+```
+4. Install dependencies:
  ```bash
  pip install -r requirements.txt
  ```
- 3. run main.py
+ 
+ 5. run main.py
+ ```bash
+python3 main.py
+ ```
