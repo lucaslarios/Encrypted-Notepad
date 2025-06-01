@@ -61,3 +61,5 @@ This project was built for local use, focused on privacy and protecting sensitiv
 2. Install dependencies:
  ```bash
  pip install -r requirements.txt
+ ```
+ 3. run main.py
